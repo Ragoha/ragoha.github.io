@@ -10,10 +10,8 @@ main:
 docs:
   - title: "개발노트"
     children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
+      - title: "Jquery"
+        url: /categories/#Jquery
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
