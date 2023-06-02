@@ -10,8 +10,15 @@ main:
 docs:
   - title: "개발노트"
     children:
+      - title: "Spring Framework"
+        url: /categories/#springframework
+      - title: "Spring Boot"
+        url: /categories/#springboot
       - title: "Jquery"
         url: /categories/#Jquery
+      - title: "오류해결"
+        url: /categories/#오류해결
+
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
