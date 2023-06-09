@@ -15,9 +15,9 @@ docs:
       - title: "Spring Boot"
         url: /categories/#springboot
       - title: "Jquery"
-        url: /categories/#Jquery
-      - title: "오류해결"
-        url: /categories/#오류해결
+        url: /categories/#jquery
+      - title: "Error"
+        url: /categories/#error
 
 
   # - title: "About"
