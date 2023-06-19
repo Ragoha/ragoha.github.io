@@ -33,7 +33,8 @@ layout: default
           {% if page.title %}<h1 id="page-title" class="page__title p-name" itemprop="headline">
             <a href="{{ page.url | absolute_url }}" class="u-url" itemprop="url">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</a>
           </h1>{% endif %}
-          {% include page__meta.html %}
+          <!-- {% include page__meta.html %} -->
+          <p class="page__date" style="font-size: 0.8em;"><i class="far fa-calendar-alt" aria-hidden="true"></i> {{ page.date | date: "%Y-%m-%d" }}</p>
         </header>
       {% endunless %}
 
